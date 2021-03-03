@@ -1,0 +1,10 @@
+body {
+    background-image: url(bg.jpg);
+}
+
+#lenyeg {
+    background-color: cadetblue;
+    margin: auto;
+    text-align: center;
+    width: max-content
+}
