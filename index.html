@@ -21,9 +21,9 @@
 <script>
 	var generaltSzam = Math.floor(Math.random() * 100 + 1);   //szám legenerálása 1 és 100 között
 	var tippek = 1;                                           //tippek kezdőértéke
-	document.getElementById("tippGomb").onclick = function(){ 	  //  \
-//                                                                 --> a gombra kattintva leadja a beírt számott
-    var tippeltSzam = document.getElementById("input").value; //  /
+	document.getElementById("tippGomb").onclick = function(){ //      \
+                                                              //       --> a gombra kattintva leadja a beírt számott
+    var tippeltSzam = document.getElementById("input").value; //      /
 
     if(tippeltSzam == generaltSzam){	                      //ha a felhasználó által tippelt szám egyenlő a generált számmal...
 	    alert("Gratulálok! "                                  //...figyelmeztető ablak: Gratulálok...
